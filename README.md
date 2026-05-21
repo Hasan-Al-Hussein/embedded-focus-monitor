@@ -170,6 +170,23 @@ The confusion matrix demonstrates strong separation between focused and distract
 
 ---
 
+# Source Code
+
+The implementation is organized in:
+
+```text
+src/
+├── FocusMonitor_Final.ino
+├── Feature_Collection.ino
+├── IMU_Test.ino
+├── PulseSensor_Test.ino
+└── dashboard.html
+```
+
+The source code includes sensor testing scripts, feature collection firmware, final embedded inference code, and the Web Bluetooth dashboard interface.
+
+---
+
 # Documentation
 
 - [Full Technical Report](docs/embedded_focus_monitor_report.pdf)
