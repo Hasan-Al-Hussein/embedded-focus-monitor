@@ -60,6 +60,37 @@ The neural network model was trained and optimized for embedded deployment on Ar
 
 ---
 
+# Live Dashboard Interface
+
+## Focused State Monitoring
+
+<p align="center">
+  <img src="images/focused_state_dashboard.png" width="1000"/>
+</p>
+
+The dashboard displays:
+- Real-time focus classification
+- Confidence scores
+- Pulse sensor activity
+- Motion sensor readings
+- Embedded inference output
+
+---
+
+## Distracted State Detection
+
+<p align="center">
+  <img src="images/distracted_state_dashboard.png" width="1000"/>
+</p>
+
+The system detects distracted states caused by:
+- Typing activity
+- Table tapping
+- Motion disturbances
+- Missing pulse contact
+
+---
+
 # Features
 
 - Real-time focus-state classification
@@ -119,5 +150,8 @@ The neural network model was trained and optimized for embedded deployment on Ar
 
 # Authors
 
-Hasan Al Hussein  
+- Hasan Al Hussein
+- Omar Yousef
+- Ahmad Alhawamdeh
+
 Khalifa University
