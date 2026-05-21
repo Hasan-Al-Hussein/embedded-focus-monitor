@@ -104,10 +104,16 @@ The system detects distracted states caused by:
 
 # Hardware Platform
 
+<p align="center">
+  <img src="images/hardware_schematic.png" width="1000"/>
+</p>
+
+The system integrates:
 - Arduino Nano 33 BLE Sense Rev2
-- Pulse Sensor
-- Embedded IMU
-- Edge Impulse
+- HW-827 pulse sensor
+- Built-in IMU (accelerometer + gyroscope)
+- USB power delivery
+- Real-time sensor acquisition pipeline
 
 ---
 
