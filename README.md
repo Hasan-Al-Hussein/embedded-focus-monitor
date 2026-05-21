@@ -139,6 +139,28 @@ The system integrates:
 
 ---
 
+# Performance Evaluation
+
+<p align="center">
+  <img src="images/confusion_matrix.png" width="850"/>
+</p>
+
+The embedded classification model was evaluated using real-time test sessions across focused and distracted activity states.
+
+## Evaluation Metrics
+
+| Metric | Value |
+|---|---|
+| Accuracy | 92.1% |
+| Precision | 94.4% |
+| Recall | 89.5% |
+| Real-Time Inference | Yes |
+| Deployment Platform | Arduino Nano 33 BLE Sense |
+
+The confusion matrix demonstrates strong separation between focused and distracted behavioral states with minimal misclassification during live embedded inference.
+
+---
+
 # Future Work
 
 - Improved classification accuracy
